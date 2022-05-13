@@ -6,4 +6,5 @@ func main() {
 	ExampleBuilder()         // 建造者模式
 	ExamplePrototype()       // 原型模式
 	ExampleSingleton()       // 单例模式
+	ExampleAdapter()         // 适配器模式
 }

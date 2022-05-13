@@ -15,8 +15,7 @@ type APayReq struct {
 }
 
 func (p *APayReq) Pay() string {
-	// todo
-	fmt.Println(p.OrderId)
+	fmt.Println("订单号:", p.OrderId)
 	return "APay支付成功"
 }
 
@@ -26,8 +25,25 @@ type BPayReq struct {
 }
 
 func (p *BPayReq) Pay() string {
-	// todo
-	fmt.Println(p.OrderId)
-	fmt.Println(p.Uid)
+	fmt.Println("订单号:", p.OrderId)
+	fmt.Println("Uid:", p.Uid)
 	return "BPay支付成功"
+}
+
+func exampleAPay() {
+	aPay := APayReq{PayReq{OrderId: "123456789"}}
+	aPay.Pay()
+}
+
+func exampleBPay() {
+	PayReq := PayReq{OrderId: "987654321"}
+	bPay := BPayReq{Uid: 1, PayReq: PayReq}
+	bPay.Pay()
+}
+
+func ExampleFactory() {
+	fmt.Println("----------工厂方法模式 Factory Method----------")
+	exampleAPay()
+	exampleBPay()
+	fmt.Println("----------工厂方法模式 Factory Method----------")
 }

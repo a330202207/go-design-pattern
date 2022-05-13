@@ -1,11 +1,11 @@
 # GO设计模式
 
 ## 创建模式
-- 工厂方法模式 Factory Method
-- 抽象工厂模式 Abstract Factory
-- 建造者模式 Builder
-- 原型模式 Prototype
-- 单例模式 Singleton
+- [工厂方法模式 Factory Method](https://github.com/a330202207/go-design-pattern/blob/main/factorymethod.go)
+- [抽象工厂模式 Abstract Factory](https://github.com/a330202207/go-design-pattern/blob/main/abstractfactory.go)
+- [建造者模式 Builder](https://github.com/a330202207/go-design-pattern/blob/main/builder.go)
+- [原型模式 Prototype](https://github.com/a330202207/go-design-pattern/blob/main/prototype.go)
+- [单例模式 Singleton](https://github.com/a330202207/go-design-pattern/blob/main/singleton.go)
 
 ## 结构型模式
 - 适配器模式 Adapter

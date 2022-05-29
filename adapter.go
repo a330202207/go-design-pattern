@@ -30,7 +30,7 @@ func NewCm() Cm {
 
 type getLengthCm struct{}
 
-func (a *getLengthCm) getLength(m float64) float64 {
+func (*getLengthCm) getLength(m float64) float64 {
 	return m * 10
 }
 
@@ -55,7 +55,7 @@ func (*getLengthAdapter) getLength(isType string, into float64) float64 {
 }
 
 func ExampleAdapter() {
-	fmt.Println("----------适配器模式 Adapter----------")
+	fmt.Println("----------适配器模式 Adapter Start----------")
 
 	into := 10.5
 	getLengthM := NewLengthAdapter().getLength("m", into)
@@ -63,5 +63,5 @@ func ExampleAdapter() {
 	fmt.Println("getLengthM:", getLengthM)
 	fmt.Println("getLengthCm:", getLengthCm)
 
-	fmt.Println("----------适配器模式 Adapter----------")
+	fmt.Println("----------适配器模式 Adapter End----------")
 }

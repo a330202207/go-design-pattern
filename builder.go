@@ -45,9 +45,9 @@ func (b *Building) Part3() {
 }
 
 func ExampleBuilder() {
-	fmt.Println("----------建造者模式 Builder----------")
+	fmt.Println("----------建造者模式 Builder Start----------")
 	builder := &Building{}
 	director := NewDirector(builder)
 	director.Construct()
-	fmt.Println("----------建造者模式 Builder----------")
+	fmt.Println("----------建造者模式 Builder End----------")
 }

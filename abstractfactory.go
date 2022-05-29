@@ -87,8 +87,8 @@ func ExampleSaveMysql() {
 
 // ExampleAbstractFactory 抽象工厂模式
 func ExampleAbstractFactory() {
-	fmt.Println("----------抽象工厂模式 Abstract Factory----------")
+	fmt.Println("----------抽象工厂模式 Abstract Factory Start----------")
 	ExampleSaveRedis()
 	ExampleSaveMysql()
-	fmt.Println("----------抽象工厂模式 Abstract Factory----------")
+	fmt.Println("----------抽象工厂模式 Abstract Factory End----------")
 }

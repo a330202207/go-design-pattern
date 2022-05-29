@@ -42,8 +42,8 @@ func exampleBPay() {
 }
 
 func ExampleFactory() {
-	fmt.Println("----------工厂方法模式 Factory Method----------")
+	fmt.Println("----------工厂方法模式 Factory Method Start----------")
 	exampleAPay()
 	exampleBPay()
-	fmt.Println("----------工厂方法模式 Factory Method----------")
+	fmt.Println("----------工厂方法模式 Factory Method End----------")
 }

@@ -14,7 +14,7 @@ func (t *Type) Clone() *Type {
 }
 
 func ExamplePrototype() {
-	fmt.Println("----------原型模式 Prototype----------")
+	fmt.Println("----------原型模式 Prototype Start----------")
 	t1 := &Type{
 		name: "type1",
 	}
@@ -26,5 +26,5 @@ func ExamplePrototype() {
 	fmt.Println("t1地址:", &t1)
 	fmt.Println("t2地址:", &t2)
 
-	fmt.Println("----------原型模式 Prototype----------")
+	fmt.Println("----------原型模式 Prototype End----------")
 }

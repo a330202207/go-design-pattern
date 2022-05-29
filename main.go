@@ -7,4 +7,6 @@ func main() {
 	ExamplePrototype()       // 原型模式
 	ExampleSingleton()       // 单例模式
 	ExampleAdapter()         // 适配器模式
+	ExampleBridge()          // 桥接模式
+	ExampleObjectTree()      // 对象树模式
 }

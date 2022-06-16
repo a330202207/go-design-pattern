@@ -13,4 +13,8 @@ func main() {
 	ExampleFacade()          // 外观模式
 	ExampleFlyweight()       // 享元模式
 	ExampleProxy()           // 代理模式
+	ExampleChain()           // 责任链模式
+	ExampleCommand()         // 命令模式
+	ExampleIterator()        // 迭代器模式
+
 }

@@ -16,5 +16,10 @@ func main() {
 	ExampleChain()           // 责任链模式
 	ExampleCommand()         // 命令模式
 	ExampleIterator()        // 迭代器模式
-
+	ExampleMediator()        // 中介者模式
+	ExampleMemento()         // 备忘录模式
+	ExampleState()           // 状态模式
+	ExampleStrategy()        // 策略模式
+	ExampleTemplateMethod()  // 模板方法模式
+	ExampleVisitor()         // 访问者模式
 }
